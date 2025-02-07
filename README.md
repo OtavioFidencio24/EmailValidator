@@ -56,14 +56,14 @@ The program will prompt you to type your email. Enter an email address and press
 
 
 ## Future Improvements
-   **Robust Regex Validation:
+   **Robust Regex Validation:**
     - Instead of using a preliminary regex that only checks for any non-alphanumeric character, consider using a comprehensive regex pattern to validate the full structure of an email address.
 
-   **Enhanced Logic:
+   **Enhanced Logic:**
     - The current logic imposes a strict rule on the number of . characters after the @ symbol. Future iterations could allow for more flexible validation rules to accommodate a wider range of valid email formats.
 
-   **Separation of Concerns:
+   **Separation of Concerns:**
     - Consider separating the validation logic from the user interface, allowing for easier unit testing and maintenance.
 
-##License
+## License
   - This project is licensed under the MIT License. See the LICENSE file for details.
